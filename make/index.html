@@ -1,0 +1,40 @@
+<html>
+<title>You Have a Greeting!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="HTML,CSS,JavaScript,jQuery,Web development,demo">
+<meta name="description" content="You have a new Greeting!">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/greet-rw.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+<body>
+
+<div class="w3-content w3-center w3-display-middle" id="content" style="max-width:1500px">
+  <p class="w3-small w3-text-light-gray">Making Wishes come True...</p>
+  <div class="w3-card w3-opacity w3-hover-opacity-off w3-round w3-padding w3-white w3-animate-bottom">
+    <p class="w3-small w3-text-gray">Create Your Wish</p>
+    <input type="text" class="w3-input" placeholder="Enter Your Name" id="name" value="">
+    <select class="w3-input" id="allwish">
+    </select>
+    <button type="button" class="w3-button w3-block" onclick="makeWish()">Generate Link</button>
+  </div>
+  <div id="madelink" style="display:none;">
+    <div class="w3-opacity w3-margin-top w3-animate-bottom w3-padding w3-round-large w3-card w3-white w3-hover-opacity">
+      <input type="text" class="w3-input" value="link here" id="sharelink">
+    </div>
+    <button type="button" onclick="copyToClipBoard()" class="w3-button w3-orange w3-opacity w3-small w3-round-large w3-margin-top w3-animate-bottom w3-hover-red">Click to Copy Link</button>
+    <button type="button" onclick="preview()" class="w3-button w3-blue w3-opacity w3-small w3-round-large w3-margin-top w3-animate-bottom w3-hover-orange">Preview</button>
+  </div>
+  <a href="../" class="w3-opacity w3-small w3-animate-bottom w3-button w3-hover-white w3-padding">return to Home</a>
+
+</div>
+
+<footer class="w3-container w3-small w3-center w3-opacity">
+  <a href="../../" class="fix-bottom w3-center">An RW - App</a>
+</footer>
+
+</body>
+<script src="../js/greetings.js"></script>
+<script src="../js/make-rw.js"></script>
+
+</html>
