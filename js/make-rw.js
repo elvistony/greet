@@ -8,7 +8,7 @@ function makeWish() {
   name=document.getElementById('name').value
   option = allwish.options[allwish.selectedIndex].index;
   if(name.length>0){
-    stringURL = SerializeURL({"from":name,"w":option})
+    stringURL = SerializeURL({"f":name,"w":option})
     document.getElementById('madelink').style.display='block';
     document.getElementById('sharelink').value="https://elvistony.github.io/greet/#"+stringURL;
   }

@@ -1,1 +1,1 @@
-Greetings = ["Happy Rakshabandhan","Merry Christmas","Happy Birthday","Farewell","Good Morning","Good Night","Good Afternoon","Good Noon","Good Evening","Something","Happy Valentine's Day","Happy Mother's Day","Happy Father's Day","Happy Children's Day","Happy Halloween"]
+Greetings = ["Happy Friendship Day","Happy Rakshabandhan","Merry Christmas","Happy Birthday","Farewell","Good Morning","Good Night","Good Afternoon","Good Noon","Good Evening","Something","Happy Valentine's Day","Happy Mother's Day","Happy Father's Day","Happy Children's Day","Happy Halloween"]

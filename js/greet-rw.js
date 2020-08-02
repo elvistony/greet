@@ -16,12 +16,12 @@ console.log(Object.keys(hashdata).length);
 mains = document.getElementById('main')
 wishes = document.getElementById('wishes')
 
-if(('from' in hashdata)||('w' in hashdata)){
+if(('f' in hashdata)||('w' in hashdata)){
   mains.style.display="none";
-  wish=9;
+  wish=10;
   from = "Someone"
-  if('from' in hashdata){
-    from = hashdata['from']
+  if('f' in hashdata){
+    from = hashdata['f']
   }
   if('w' in hashdata){
     wish = hashdata['w'];
